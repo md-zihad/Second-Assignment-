@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heading, .our-popular-tours, .choose-destination, .why-choose, .deals-and-discount, .a-simple-perfect, .newsletter{
+    margin-left: 135px;
+    margin-right: 135px;
+}
+
+.heading {
+    background-image: linear-gradient(to bottom, rgba(19, 19, 24, 0.80), rgba(19, 19, 24, 0.00)), url('/Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input-field {
+    padding: 10px;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.30);
+}
+
+.our-popular-tours {
+   
+    display: flex;
+
+}
+
+.image {
+    height: ;
+}
+
+.choose-destination {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+#i1 {
+    grid-area: img1;
+}
+
+#i2 {
+    grid-area: img2;
+}
+
+#i3 {
+    grid-area: img3;
+}
+
+#i4 {
+    grid-area: img4;
+}
+
+#i5 {
+    grid-area: img5;
+}
+
+#i6 {
+    grid-area: img6;
+}
+
+#i7 {
+    grid-area: img7;
+}
+
+
+.why-choose {
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    border-radius: 25px;
+    flex-direction: row;
+}
+
+.card {
+    background-color: antiquewhite;
+    width: calc();
+    height: 200px;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+
+
+}
+
+.deals-img {
+    /* display: flex; */
+    width: 100%;
+    position: relative;
+
+}
+
+.deals-and-discount {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+
+
+.inner-card {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    background-color: rgba(199, 26, 26, 0.8);
+    z-index: 1;
+    top: -384px;
+    right: -761px;
+
+}
+
+.footer{
+    background-color: antiquewhite;
+    margin-bottom: 0px;
+}
