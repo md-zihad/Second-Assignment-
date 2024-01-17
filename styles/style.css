@@ -338,7 +338,7 @@ h2 {
 
 .extra-section {
     position: relative;
-    background: url('/Images/tower.jpg') center/cover no-repeat;
+    background: url('../Images/tower.jpg') center/cover no-repeat;
     height: 60vh;
    
     overflow: hidden;
